@@ -31,9 +31,16 @@ A file name ends with the first 8 characters of the file's sha256.
 | `kokoro-multi-lang-v1_0-c5f7e2d2.tar.bz2` | k2-fsa/sherpa-onnx `tts-models`, `kokoro-multi-lang-v1_0.tar.bz2` (2026-09-08) | `c5f7e2d2caf082bc1d20fb70334a61d99d20b484500aad32e7cf84c128ea3298` |
 | `kokoro-en-v0_19-91280485.tar.bz2` | k2-fsa/sherpa-onnx `tts-models`, `kokoro-en-v0_19.tar.bz2` (2025-08-10) | `912804855a04745fa77a30be545b3f9a5d15c4d66db00b88cbcd4921df605ac7` |
 
+### vad/silero
+
+| File | Upstream source | sha256 |
+|---|---|---|
+| `silero_vad_v5-6b99cbfd.onnx` | k2-fsa/sherpa-onnx `asr-models`, `silero_vad_v5.onnx` (2024-07-01) | `6b99cbfd39246b6706f98ec13c7c50c6b299181f2474fa05cbc8046acc274396` |
+
 ## Licences
 
 Each bundle keeps its upstream `LICENSE` file (Apache-2.0 for Kokoro). Bundles
 also contain third-party data under its own licence: espeak-ng data
 (GPL-3.0-or-later) and, in the multi-lang bundle, a jieba dictionary (MIT).
+Silero VAD is MIT-licensed (snakers4/silero-vad).
 
