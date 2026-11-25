@@ -37,6 +37,12 @@ A file name ends with the first 8 characters of the file's sha256.
 |---|---|---|
 | `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8-1495e91b.tar.bz2` | k2-fsa/sherpa-onnx `asr-models`, `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2` (2026-11-07) | `1495e91b59d7fc53ddca91f3431758ec99f8fa253fdb0e1e851be0f72b14b0f9` |
 
+### asr/nemotron
+
+| File | Upstream source | sha256 |
+|---|---|---|
+| `sherpa-onnx-nemotron-3.5-asr-streaming-0.6b-160ms-int8-2026-06-11-a81909a1.tar.bz2` | k2-fsa/sherpa-onnx `asr-models`, `sherpa-onnx-nemotron-3.5-asr-streaming-0.6b-160ms-int8-2026-06-11.tar.bz2` (2026-07-09) | `a81909a1780d84cff16d73c15e13e67d9d81d8839faf14870d507d8499f7a61a` |
+
 ### vad/silero
 
 | File | Upstream source | sha256 |
@@ -51,4 +57,7 @@ also contain third-party data under its own licence: espeak-ng data
 Silero VAD is MIT-licensed (snakers4/silero-vad). Parakeet TDT 0.6b v3 is
 NVIDIA's model (nvidia/parakeet-tdt-0.6b-v3), licensed CC-BY-4.0; the
 sherpa-onnx project made the ONNX export, and the bundle's README states both.
+Nemotron 3.5 ASR streaming 0.6b is NVIDIA's model
+(nvidia/nemotron-3.5-asr-streaming-0.6b), licensed OpenMDW-1.1; the sherpa-onnx
+project made the ONNX export, and the bundle's README names the source model.
 
